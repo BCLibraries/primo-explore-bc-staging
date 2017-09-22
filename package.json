@@ -1,0 +1,18 @@
+{
+  "name": "primo-explore-bc-staging",
+  "version": "0.0.1",
+  "description": "Custom colors for BC Libraries' primo staging server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BCLibraries/primo-explore-bc-staging.git"
+  },
+  "keywords": [
+    "primo"
+  ],
+  "author": "Luke Gaudreau",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BCLibraries/primo-explore-bc-staging/issues"
+  },
+  "homepage": "https://github.com/BCLibraries/primo-explore-bc-staging#readme"
+}
