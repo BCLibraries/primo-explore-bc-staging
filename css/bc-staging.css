@@ -1,9 +1,9 @@
-
-
 /* Staging only styles */
-prm-logo-after h1 {
+prm-logo::after {
+    content: "Staging";
     text-transform: uppercase;
     margin-left: 1em;
+    font-size: 2em;
 }
 
 prm-search-bar, prm-journals-search-bar {
