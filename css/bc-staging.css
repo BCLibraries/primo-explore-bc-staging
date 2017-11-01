@@ -1,6 +1,6 @@
 /* Staging only styles */
 prm-logo::after {
-    content: "Staging";
+    content: "Testing";
     text-transform: uppercase;
     margin-left: 1em;
     font-size: 2em;
