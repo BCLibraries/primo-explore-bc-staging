@@ -21,3 +21,15 @@ prm-search-bar .search-switch-buttons .md-button.switch-to-advanced,
 prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
     color: #501315;
 }
+
+prm-topbar div.top-nav-bar {
+    background-color: #685c53;
+}
+
+prm-topbar,
+prm-user-area,
+prm-user-area md-fab-toolbar md-toolbar,
+prm-user-area md-fab-toolbar .md-fab-action-item .md-button,
+prm-user-area md-fab-toolbar.md-is-open md-fab-trigger ._md-fab-toolbar-background {
+    background-color: #685c53 !important;
+}
