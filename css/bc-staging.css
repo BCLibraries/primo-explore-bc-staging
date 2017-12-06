@@ -1,14 +1,23 @@
 /* Staging only styles */
-prm-logo::after {
+
+prm-main-menu::before {
     content: "Testing";
     text-transform: uppercase;
-    margin-left: 1em;
+    margin-left: 10%;
     font-size: 2em;
+    position: absolute;
+    left: 0;
+    color: #FFFFFF;
 }
 
-prm-search-bar, prm-journals-search-bar {
+prm-search-bar,
+prm-journals-search-bar {
     background-color: #dfddcf;
 }
-prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+
+prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced,
+prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced,
+prm-search-bar .search-switch-buttons .md-button.switch-to-advanced,
+prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
     color: #501315;
 }
