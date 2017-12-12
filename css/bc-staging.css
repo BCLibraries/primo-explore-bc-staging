@@ -3,33 +3,19 @@
 prm-main-menu::before {
     content: "Testing";
     text-transform: uppercase;
-    margin-left: 10%;
     font-size: 2em;
     position: absolute;
-    left: 0;
+    top: 50%;
     color: #FFFFFF;
+    display: flex;
+    flex-basis: start;
 }
 
-prm-search-bar,
-prm-journals-search-bar {
-    background-color: #dfddcf;
-}
-
-prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced,
-prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced,
-prm-search-bar .search-switch-buttons .md-button.switch-to-advanced,
-prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
-    color: #501315;
-}
-
-prm-topbar div.top-nav-bar {
-    background-color: #685c53;
-}
-
+prm-topbar div.top-nav-bar,
 prm-topbar,
 prm-user-area,
 prm-user-area md-fab-toolbar md-toolbar,
 prm-user-area md-fab-toolbar .md-fab-action-item .md-button,
 prm-user-area md-fab-toolbar.md-is-open md-fab-trigger ._md-fab-toolbar-background {
-    background-color: #685c53 !important;
+    background-color: #501315 !important;
 }
